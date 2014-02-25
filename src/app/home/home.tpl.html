@@ -22,10 +22,62 @@
 </div>
 
 <!-- Alert demo -->
-<div ng-controller="AlertDemoCtrl">
-    <alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>
-    <button class='btn btn-default' ng-click="addAlert()">Add Alert</button>
-</div>
+<!--<div ng-controller="AlertDemoCtrl">-->
+    <!--<alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>-->
+    <!--<button class='btn btn-default' ng-click="addAlert()">Add Alert</button>-->
+<!--</div>-->
+
+<!-- Accordion demo -->
+<!--<div ng-controller="AccordionDemoCtrl">-->
+    <!--<label class="checkbox">-->
+        <!--<input type="checkbox" ng-model="oneAtATime">-->
+        <!--Open only one at a time-->
+    <!--</label>-->
+
+    <!--<accordion close-others="oneAtATime">-->
+        <!--<accordion-group heading="Static Header, initially expanded" is-open="true">-->
+            <!--This content is straight in the template.-->
+        <!--</accordion-group>-->
+        <!--<accordion-group heading="{{group.title}}" ng-repeat="group in groups">-->
+            <!--{{group.content}}-->
+        <!--</accordion-group>-->
+        <!--<accordion-group heading="Dynamic Body Content">-->
+            <!--<p>The body of the accordion group grows to fit the contents</p>-->
+            <!--<button class="btn btn-default btn-sm" ng-click="addItem()">Add Item</button>-->
+            <!--<div ng-repeat="item in items">{{item}}</div>-->
+        <!--</accordion-group>-->
+        <!--<accordion-group is-open="isopen">-->
+            <!--<accordion-heading>-->
+                <!--I can have markup, too! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>-->
+            <!--</accordion-heading>-->
+            <!--This is just some content to illustrate fancy headings.-->
+        <!--</accordion-group>-->
+    <!--</accordion>-->
+<!--</div>-->
+
+<!-- Accordion demo -->
+<!--<div ng-controller="CarouselDemoCtrl">-->
+    <!--<div style="height: 305px">-->
+        <!--<carousel interval="myInterval">-->
+            <!--<slide ng-repeat="slide in slides" active="slide.active">-->
+                <!--<img ng-src="{{slide.image}}" style="margin:auto;">-->
+                <!--<div class="carousel-caption">-->
+                    <!--<h4>Slide {{$index}}</h4>-->
+                    <!--<p>{{slide.text}}</p>-->
+                <!--</div>-->
+            <!--</slide>-->
+        <!--</carousel>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+        <!--<div class="col-md-6">-->
+            <!--<a class="btn btn-info" ng-click="addSlide()">Add Slide</a>-->
+        <!--</div>-->
+        <!--<div class="col-md-6">-->
+            <!--Interval, in milliseconds: <input type="number" class="form-control" ng-model="myInterval">-->
+            <!--<br />Enter a negative number to stop the interval.-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
 
 <div class="jumbotron">
   <h1>Non-Trivial AngularJS Made Easy</h1>
