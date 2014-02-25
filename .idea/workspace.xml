@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="158f4fa1-c977-4f87-aaa9-a2affa6c0b78" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/home/home.js" afterPath="$PROJECT_DIR$/src/app/home/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/home/home.tpl.html" afterPath="$PROJECT_DIR$/src/app/home/home.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ngbp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +37,7 @@
       <file leaf-file-name="home.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/home/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="2" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.96198523" vertical-offset="97" max-vertical-offset="1152">
+            <state line="48" column="4" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.67687434" vertical-offset="223" max-vertical-offset="1188">
               <folding />
             </state>
           </provider>
@@ -535,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="81" selection-end="81" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="594">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="41.48148" vertical-offset="1120" max-vertical-offset="2052">
@@ -563,9 +554,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="81" selection-end="81" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/home/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="2" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.96198523" vertical-offset="97" max-vertical-offset="1152">
+        <state line="48" column="4" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.67687434" vertical-offset="223" max-vertical-offset="1188">
           <folding />
         </state>
       </provider>

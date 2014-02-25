@@ -41,9 +41,10 @@ angular.module( 'ngBoilerplate.home', [
 .controller( 'HomeCtrl', function HomeController( $scope ) {
 })
 
-;
-
-var ButtonsCtrl = function ($scope) {
+/**
+ * My toggle button demo controller.
+ */
+.controller('ButtonsCtrl', function ButtonsCtrl($scope) {
 
     $scope.singleModel = 1;
 
@@ -54,5 +55,6 @@ var ButtonsCtrl = function ($scope) {
         middle: true,
         right: false
     };
-};
+})
+;
 
