@@ -1,3 +1,4 @@
+<!-- Toggle buttons demo -->
 <div ng-controller="ButtonsCtrl">
     <h4>Single toggle</h4>
     <pre>{{singleModel}}</pre>
@@ -18,6 +19,12 @@
         <button type="button" class="btn btn-primary" ng-model="radioModel" btn-radio="'Middle'">Middle</button>
         <button type="button" class="btn btn-primary" ng-model="radioModel" btn-radio="'Right'">Right</button>
     </div>
+</div>
+
+<!-- Alert demo -->
+<div ng-controller="AlertDemoCtrl">
+    <alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>
+    <button class='btn btn-default' ng-click="addAlert()">Add Alert</button>
 </div>
 
 <div class="jumbotron">
