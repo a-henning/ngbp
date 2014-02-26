@@ -3,6 +3,8 @@ angular.module( 'ngBoilerplate', [
   'templates-common',
   'ngBoilerplate.home',
   'ngBoilerplate.about',
+'ngBoilerplate.services',
+    'ngBoilerplate.task',
   'ui.state',
   'ui.route'
 ])

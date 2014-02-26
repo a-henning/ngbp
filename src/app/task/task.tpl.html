@@ -1,0 +1,11 @@
+<div ng-controller="TaskCtrl">
+    <h1>Tasks</h1>
+
+    Filter: <input ng-model="query">
+    <hr>
+    <ul class="tasks">
+        <li ng-repeat="task in tasks | filter:query">
+            {{task}}
+        </li>
+    </ul>
+</div>
