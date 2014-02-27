@@ -32,8 +32,7 @@ angular.module( 'ngBoilerplate.task', [
     ];
 
     GoogleSearch.query(function(response) {
-        console.log(response);
-        $scope.tasks = response.responseData.results;
+        $scope.tasks = response.items;
     });
 }]);
 
@@ -42,8 +41,8 @@ angular.module( 'ngBoilerplate.task', [
  */
 angular.module('ngBoilerplate.services', ['ngResource'])
 .factory('GoogleSearch', function($resource){
-    return $resource("http://ajax.googleapis.com/ajax/services/search/web",
-        {"v": "1.0", "q": "dog"},
+    return $resource("https://www.googleapis.com/customsearch/v1",
+        {"key": "AIzaSyDZfXhsVOvKoLL3MzZuEi1jKCyrMM5GTjY", "cx" : "016018725942321900689:lnwj9euvx40", "q": "dog"},
         {'query':  {method:'GET', isArray:false}}
     );
 });

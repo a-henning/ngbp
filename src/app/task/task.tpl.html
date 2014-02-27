@@ -1,11 +1,12 @@
 <div ng-controller="TaskCtrl">
     <h1>Tasks</h1>
-
+    <h2>Search results for "dog"</h2>
     Filter: <input ng-model="query">
     <hr>
     <ul class="tasks">
         <li ng-repeat="task in tasks | filter:query">
-            {{task}}
+            <a href="{{task.link}}"><h4>{{task.title}}</h4></a>
+            <p>{{task.snippet}}</p>
         </li>
     </ul>
 </div>
